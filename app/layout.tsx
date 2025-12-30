@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "MediBridge AI",
-  description: "AI Medical Consultation Platform",
+  description: "AI-Powered Medical Consultation Platform",
 };
 
 export default function RootLayout({
@@ -13,8 +13,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* BACKGROUND */}
+        {/* Background Image */}
         <div className="bg-medical" />
+
+        {/* JPG Particle Animation */}
+        <div className="bg-particles" />
 
         {children}
       </body>
