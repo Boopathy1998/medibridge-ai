@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "MediBridge AI",
-  description: "AI-Powered Medical Consultation Assistant",
+  description: "AI-Powered Multilingual Medical Consultation Assistant",
 };
 
 export default function RootLayout({
