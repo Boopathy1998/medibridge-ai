@@ -12,7 +12,7 @@ export default function Home() {
           AI-Powered Multilingual Medical Consultation Assistant
         </p>
 
-        <div className="space-y-3">
+        <div className="space-y-4">
           <Link
             href="/consultation"
             className="block w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition"
