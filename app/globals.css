@@ -2,54 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===============================
-   GLOBAL DEFAULTS
-================================ */
+/* Global reset */
 html,
 body {
-  margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    "Helvetica Neue", sans-serif;
-  background: transparent;
-  color: #111827;
+  margin: 0;
+  height: 100%;
 }
 
-/* ===============================
-   BACKGROUND IMAGE ANIMATION
-================================ */
-@keyframes bgMove {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.06);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.animate-bgMove {
-  animation: bgMove 30s ease-in-out infinite;
-}
-
-/* ===============================
-   MIC PULSE (FOR VOICE UI)
-================================ */
-@keyframes micPulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
-  }
-  70% {
-    box-shadow: 0 0 0 25px rgba(239, 68, 68, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
-  }
-}
-
-.mic-active {
-  animation: micPulse 1.5s infinite;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }

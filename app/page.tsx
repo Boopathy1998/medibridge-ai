@@ -6,7 +6,7 @@ export default function Home() {
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/doctor-bg.jpg')",
+          "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/doctor-bg.jpg')",
       }}
     >
       <div className="bg-white rounded-2xl shadow-2xl p-10 max-w-md w-full text-center">
@@ -18,14 +18,12 @@ export default function Home() {
           AI-Powered Multilingual Medical Consultation Assistant
         </p>
 
-        {/* START CONSULTATION BUTTON */}
         <Link href="/consultation">
           <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-xl font-semibold mb-4 transition">
             Start Consultation
           </button>
         </Link>
 
-        {/* DOCTOR DASHBOARD BUTTON */}
         <Link href="/dashboard">
           <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-xl font-semibold transition">
             Doctor Dashboard
