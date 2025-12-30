@@ -12,7 +12,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex items-center justify-center text-white">
+      <body>
+        {/* Background Layers */}
+        <div className="medical-bg" />
+        <div className="medical-overlay" />
+        <div className="medical-dim" />
+
         {children}
       </body>
     </html>
