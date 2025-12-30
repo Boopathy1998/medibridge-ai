@@ -13,12 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Background Image */}
         <div className="bg-medical" />
-
-        {/* JPG Particle Animation */}
-        <div className="bg-particles" />
-
         {children}
       </body>
     </html>
